@@ -172,7 +172,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
     const orderData = orderResponse.data.data;
 
     const options = {
-      key: "rzp_test_RHS18GQXLt0evs", // Correct env variable with REACT_APP_ prefix
+      key: process.env.RAZORPAY_KEY, // Correct env variable with REACT_APP_ prefix
       currency: orderData.currency,
       amount: orderData.amount,
       order_id: orderData.id,
