@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # **StudyNotion - EdTech Platform**
 
 StudyNotion is a fully functional, feature-rich ed-tech platform designed to revolutionize online learning. Built with the MERN stack (**MongoDB**, **Express.js**, **React.js**, and **Node.js**), this platform offers a seamless learning experience for students while providing instructors with the tools to showcase their expertise.
@@ -90,7 +89,7 @@ The RESTful API design ensures efficient communication between the front-end and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/studynotion.git
+   git clone https://github.com/the-Shikha/Study_Notion.git
    
 2. Navigate to the project directory:
    ```bash
