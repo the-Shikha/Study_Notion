@@ -31,7 +31,7 @@ const Community = [
   { name: "Events", link: "events" },
   {
     name: "Contribute",
-    link: "https://github.com/Muskansahuincredible/StudyNotion-An-Online-Education-Platform",
+    link: "#",
     external: true,
   },
 ];
