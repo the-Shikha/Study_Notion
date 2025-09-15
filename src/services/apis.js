@@ -61,8 +61,8 @@ export const catalogEndpoints = {
   GET_CATEGORY_PAGE_DETAILS: `${BASE_URL}/course/getCategoryPageDetails`,
 };
 // CONTACT-US API
-export const contactEndpoints = {
-  CONTACT_US: `${BASE_URL}/reach/contact`,
+export const contactusEndpoint = {
+  CONTACT_US_API: `${BASE_URL}/reach/contact`,
 };
 
 // SETTINGS PAGE API
