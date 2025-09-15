@@ -88,3 +88,32 @@
     background-color: #0056b3;
   }
   
+  .chatbot-faq-wrapper {
+  background-color: #eef6fb; /* subtle light blue background */
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.chatbot-faq-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.faq-button {
+  background-color: #60a5fa; /* Tailwind sky-400 blue */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* pill shape */
+  cursor: pointer;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.faq-button:hover {
+  background-color: #2563eb; /* Tailwind sky-600 blue */
+}
